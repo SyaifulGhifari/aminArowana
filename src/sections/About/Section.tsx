@@ -16,7 +16,6 @@ const About = (props: Props) => {
   return (
     <>
       <div className='w-[400px] h-[400px] rounded-[100%] bg-gradient-to-r from-blue-500 to-pink-500 absolute z-1 top-[100%] right-[10%] translate-x-[-10%] translate-y-[30%] blur-[200px]'></div>
-
       <div className='w-full h-full'>
         <div className='container mx-auto my-4 md:my-10 text-slate-300' data-aos='fade-up' data-aos-duration="1000">
           <div className='grid md:grid-cols-12 gap-4'>
