@@ -24,7 +24,7 @@ const Service = (props: Props) => {
                 <p>Kami menyediakan jasa pembuatan akuarium berbagai ukuran, mulai dari yang kecil hingga yang besar. Dengan desain khusus dan material berkualitas tinggi, kami memastikan akuarium Anda akan menjadi pusat perhatian dan memberikan lingkungan yang ideal bagi ikan arwana Anda.</p>
             </div>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-4 items-center' data-aos="fade-up-left">
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-4 items-center'>
             <div className='flex justify-center'>
               <div className='p-1 rounded-xl bg-gradient-to-br from-red-700 to-purple-700'>
                 <Image className='rounded-xl' src={operasi} alt='aquarium' width={200} height={200} />
