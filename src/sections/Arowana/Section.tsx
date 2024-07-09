@@ -26,8 +26,8 @@ const Arowana = (props: Props) => {
 
   return (
     <>
-      <div className='flex justify-center items-center text-slate-300 text-center text-4xl sm:text-md font-bold md:mb-10 mb-4'>Arowana</div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 gap-4' data-aos='fade-down' data-aos-duration="1000">
+      <div className='flex justify-center items-center text-slate-300 text-center text-4xl sm:text-md font-bold md:mb-10 mb-4'>Arwana</div>
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-4' data-aos='fade-down' data-aos-duration="1000" id='Arwana'>
         {arowana.map((value: { jenis: string, image : StaticImageData, deskripsi: string }, index: number) =>
           <Card key={index} jenis={value.jenis} image={value.image} deskripsi={value.deskripsi}/>
         )}

@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import aquarium from '@/public/image/aquarium.jpeg'
@@ -13,7 +13,7 @@ const Service = (props: Props) => {
     };
     return (
         <div className='bg-gradient-to-b from-black to-purple-950 py-8 bg-opacity-50'>
-            <div className='container mx-auto px-4 md:px-10'>
+            <div className='container mx-auto px-4 md:px-10 md:mt-10' id='Layanan'>
                 <h2 className='text-slate-300 text-3xl font-bold text-center mb-6'>Layanan Kami</h2>
                 <div className='w-4/5 mx-auto'>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4 items-center mb-10'>
@@ -45,26 +45,29 @@ const Service = (props: Props) => {
                 className='flex flex-col sm:flex-row sm:flex-wrap items-center justify-between md:p-10 p-2 text-slate-300 mt-10'
             >
                 <div>
-                    <div className="lg:flex-none md:max-w-xs w-full text-center">"Nikmati kemudahan berbelanja dengan kami dan temukan layanan yang memenuhi semua kebutuhan akuatik Anda."</div>
+                    <div className="lg:flex-none md:max-w-xs w-full text-center">Nikmati kemudahan berbelanja dengan kami dan temukan layanan yang memenuhi semua kebutuhan akuatik Anda.</div>
                 </div>
                 <div className='flex items-center justify-around sm:w-1/3 w-full my-4 sm:mt-0'>
                     <FaWhatsapp
                         fontSize='2em'
                         color='green'
                         role='link'
-                        onClick={() => openInNewTab('https://wa.me/6288235910706?text=Apakah%20stoknya%20masih')}
+                        onClick={() => openInNewTab('https://wa.me/6289603528991?text=')}
+                        className='cursor-pointer'
                     />
                     <FaFacebook
                         fontSize='2em'
                         color='blue'
                         role='link'
-                        onClick={() => openInNewTab('https://www.facebook.com/raja.brambang.45?mibextid=2JQ9oc')}
+                        onClick={() => openInNewTab('https://www.facebook.com/share/ebUdxz9WLxoq3hz3/?mibextid=qi2Omg')}
+                        className='cursor-pointer'
                     />
                     <FaInstagram
                         fontSize='2em'
                         color='purple'
                         role='link'
-                    // onClick={() => openInNewTab('https://wa.me/6288235910706?text=Apakah%20stoknya%20masih')}
+                        onClick={() => openInNewTab('https://wa.me/6288235910706?text=Apakah%20stoknya%20masih')}
+                        className='cursor-pointer'
                     />
                 </div>
                 <div className='sm:w-full mt-4 sm:mt-0 md:w-auto flex justify-center'>
